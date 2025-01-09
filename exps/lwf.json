@@ -1,0 +1,14 @@
+{
+    "prefix": "aug",
+    "dataset": "cifar100",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": false,
+    "shuffle": true,
+    "init_cls": 40,
+    "increment": 3,
+    "model_name": "lwf",
+    "convnet_type": "resnet18_cbam",
+    "device": ["1"],
+    "seed": [1993]
+}

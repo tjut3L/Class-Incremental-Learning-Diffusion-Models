@@ -1,0 +1,15 @@
+{
+    "prefix": "aug",
+    "dataset": "tinyimagenet",
+    "memory_size": 2000,
+    "memory_per_class": 20,
+    "fixed_memory": true,
+    "shuffle": true,
+    "init_cls": 100,
+    "increment": 20,
+    "model_name": "icarl",
+    "convnet_type": "resnet18_cbam",
+    "device": ["5"],
+    "seed": [1993]
+}
+

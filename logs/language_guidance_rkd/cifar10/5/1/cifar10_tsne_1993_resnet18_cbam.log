@@ -1,0 +1,1164 @@
+2025-01-09 09:41:56,233 [trainer.py] => config: ./exps/language_guidance.json
+2025-01-09 09:41:56,233 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:41:56,233 [trainer.py] => dataset: cifar10
+2025-01-09 09:41:56,233 [trainer.py] => memory_size: 0
+2025-01-09 09:41:56,233 [trainer.py] => memory_per_class: 0
+2025-01-09 09:41:56,233 [trainer.py] => fixed_memory: False
+2025-01-09 09:41:56,233 [trainer.py] => shuffle: True
+2025-01-09 09:41:56,233 [trainer.py] => init_cls: 5
+2025-01-09 09:41:56,234 [trainer.py] => increment: 1
+2025-01-09 09:41:56,234 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:41:56,234 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:41:56,234 [trainer.py] => init_epoch: 200
+2025-01-09 09:41:56,234 [trainer.py] => init_lr: 0.1
+2025-01-09 09:41:56,234 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:41:56,234 [trainer.py] => epochs: 100
+2025-01-09 09:41:56,234 [trainer.py] => lr: 0.01
+2025-01-09 09:41:56,234 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:41:56,234 [trainer.py] => batch_size: 256
+2025-01-09 09:41:56,234 [trainer.py] => num_workers: 16
+2025-01-09 09:41:56,234 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:41:56,234 [trainer.py] => seed: 1993
+2025-01-09 09:41:56,234 [trainer.py] => outdir: data/
+2025-01-09 09:41:56,234 [trainer.py] => steps: 50
+2025-01-09 09:41:56,234 [trainer.py] => use_plms: True
+2025-01-09 09:41:56,234 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:41:56,234 [trainer.py] => n_sum: 500
+2025-01-09 09:41:56,234 [trainer.py] => n_samples: 40
+2025-01-09 09:41:56,234 [trainer.py] => scale: 5.0
+2025-01-09 09:41:56,234 [trainer.py] => H: 256
+2025-01-09 09:41:56,234 [trainer.py] => W: 256
+2025-01-09 09:47:18,695 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:47:18,695 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:47:18,695 [trainer.py] => dataset: cifar10
+2025-01-09 09:47:18,695 [trainer.py] => memory_size: 0
+2025-01-09 09:47:18,695 [trainer.py] => memory_per_class: 0
+2025-01-09 09:47:18,695 [trainer.py] => fixed_memory: False
+2025-01-09 09:47:18,695 [trainer.py] => shuffle: True
+2025-01-09 09:47:18,695 [trainer.py] => init_cls: 5
+2025-01-09 09:47:18,695 [trainer.py] => increment: 1
+2025-01-09 09:47:18,695 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:47:18,695 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:47:18,695 [trainer.py] => init_epoch: 200
+2025-01-09 09:47:18,695 [trainer.py] => init_lr: 0.1
+2025-01-09 09:47:18,695 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:47:18,695 [trainer.py] => epochs: 100
+2025-01-09 09:47:18,695 [trainer.py] => lr: 0.01
+2025-01-09 09:47:18,695 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:47:18,695 [trainer.py] => batch_size: 256
+2025-01-09 09:47:18,695 [trainer.py] => num_workers: 16
+2025-01-09 09:47:18,695 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:47:18,695 [trainer.py] => seed: 1993
+2025-01-09 09:47:18,695 [trainer.py] => outdir: data/
+2025-01-09 09:47:18,695 [trainer.py] => steps: 50
+2025-01-09 09:47:18,695 [trainer.py] => use_plms: True
+2025-01-09 09:47:18,695 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:47:18,695 [trainer.py] => n_sum: 500
+2025-01-09 09:47:18,695 [trainer.py] => n_samples: 40
+2025-01-09 09:47:18,695 [trainer.py] => scale: 5.0
+2025-01-09 09:47:18,695 [trainer.py] => H: 256
+2025-01-09 09:47:18,695 [trainer.py] => W: 256
+2025-01-09 09:47:20,128 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:47:45,468 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:47:45,469 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:47:45,469 [trainer.py] => dataset: cifar10
+2025-01-09 09:47:45,469 [trainer.py] => memory_size: 0
+2025-01-09 09:47:45,469 [trainer.py] => memory_per_class: 0
+2025-01-09 09:47:45,469 [trainer.py] => fixed_memory: False
+2025-01-09 09:47:45,469 [trainer.py] => shuffle: True
+2025-01-09 09:47:45,469 [trainer.py] => init_cls: 5
+2025-01-09 09:47:45,469 [trainer.py] => increment: 1
+2025-01-09 09:47:45,469 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:47:45,469 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:47:45,469 [trainer.py] => init_epoch: 200
+2025-01-09 09:47:45,469 [trainer.py] => init_lr: 0.1
+2025-01-09 09:47:45,469 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:47:45,469 [trainer.py] => epochs: 100
+2025-01-09 09:47:45,469 [trainer.py] => lr: 0.01
+2025-01-09 09:47:45,469 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:47:45,469 [trainer.py] => batch_size: 256
+2025-01-09 09:47:45,469 [trainer.py] => num_workers: 16
+2025-01-09 09:47:45,469 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:47:45,469 [trainer.py] => seed: 1993
+2025-01-09 09:47:45,469 [trainer.py] => outdir: data/
+2025-01-09 09:47:45,469 [trainer.py] => steps: 50
+2025-01-09 09:47:45,469 [trainer.py] => use_plms: True
+2025-01-09 09:47:45,469 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:47:45,469 [trainer.py] => n_sum: 500
+2025-01-09 09:47:45,469 [trainer.py] => n_samples: 40
+2025-01-09 09:47:45,469 [trainer.py] => scale: 5.0
+2025-01-09 09:47:45,469 [trainer.py] => H: 256
+2025-01-09 09:47:45,469 [trainer.py] => W: 256
+2025-01-09 09:47:46,904 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:48:03,277 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:48:03,277 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:48:03,277 [trainer.py] => dataset: cifar10
+2025-01-09 09:48:03,277 [trainer.py] => memory_size: 0
+2025-01-09 09:48:03,277 [trainer.py] => memory_per_class: 0
+2025-01-09 09:48:03,277 [trainer.py] => fixed_memory: False
+2025-01-09 09:48:03,277 [trainer.py] => shuffle: True
+2025-01-09 09:48:03,277 [trainer.py] => init_cls: 5
+2025-01-09 09:48:03,277 [trainer.py] => increment: 1
+2025-01-09 09:48:03,277 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:48:03,277 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:48:03,277 [trainer.py] => init_epoch: 200
+2025-01-09 09:48:03,277 [trainer.py] => init_lr: 0.1
+2025-01-09 09:48:03,277 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:48:03,277 [trainer.py] => epochs: 100
+2025-01-09 09:48:03,277 [trainer.py] => lr: 0.01
+2025-01-09 09:48:03,277 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:48:03,277 [trainer.py] => batch_size: 256
+2025-01-09 09:48:03,277 [trainer.py] => num_workers: 16
+2025-01-09 09:48:03,277 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:48:03,277 [trainer.py] => seed: 1993
+2025-01-09 09:48:03,277 [trainer.py] => outdir: data/
+2025-01-09 09:48:03,277 [trainer.py] => steps: 50
+2025-01-09 09:48:03,277 [trainer.py] => use_plms: True
+2025-01-09 09:48:03,277 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:48:03,277 [trainer.py] => n_sum: 500
+2025-01-09 09:48:03,278 [trainer.py] => n_samples: 40
+2025-01-09 09:48:03,278 [trainer.py] => scale: 5.0
+2025-01-09 09:48:03,278 [trainer.py] => H: 256
+2025-01-09 09:48:03,278 [trainer.py] => W: 256
+2025-01-09 09:48:04,780 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:48:53,089 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:48:53,089 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:48:53,090 [trainer.py] => dataset: cifar10
+2025-01-09 09:48:53,090 [trainer.py] => memory_size: 0
+2025-01-09 09:48:53,090 [trainer.py] => memory_per_class: 0
+2025-01-09 09:48:53,090 [trainer.py] => fixed_memory: False
+2025-01-09 09:48:53,090 [trainer.py] => shuffle: True
+2025-01-09 09:48:53,090 [trainer.py] => init_cls: 5
+2025-01-09 09:48:53,090 [trainer.py] => increment: 1
+2025-01-09 09:48:53,090 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:48:53,090 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:48:53,090 [trainer.py] => init_epoch: 200
+2025-01-09 09:48:53,090 [trainer.py] => init_lr: 0.1
+2025-01-09 09:48:53,090 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:48:53,090 [trainer.py] => epochs: 100
+2025-01-09 09:48:53,090 [trainer.py] => lr: 0.01
+2025-01-09 09:48:53,090 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:48:53,090 [trainer.py] => batch_size: 256
+2025-01-09 09:48:53,090 [trainer.py] => num_workers: 16
+2025-01-09 09:48:53,090 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:48:53,090 [trainer.py] => seed: 1993
+2025-01-09 09:48:53,090 [trainer.py] => outdir: data/
+2025-01-09 09:48:53,090 [trainer.py] => steps: 50
+2025-01-09 09:48:53,090 [trainer.py] => use_plms: True
+2025-01-09 09:48:53,090 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:48:53,090 [trainer.py] => n_sum: 500
+2025-01-09 09:48:53,090 [trainer.py] => n_samples: 40
+2025-01-09 09:48:53,090 [trainer.py] => scale: 5.0
+2025-01-09 09:48:53,090 [trainer.py] => H: 256
+2025-01-09 09:48:53,090 [trainer.py] => W: 256
+2025-01-09 09:48:54,553 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:49:11,087 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:49:11,087 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:49:11,087 [trainer.py] => dataset: cifar10
+2025-01-09 09:49:11,087 [trainer.py] => memory_size: 0
+2025-01-09 09:49:11,087 [trainer.py] => memory_per_class: 0
+2025-01-09 09:49:11,087 [trainer.py] => fixed_memory: False
+2025-01-09 09:49:11,087 [trainer.py] => shuffle: True
+2025-01-09 09:49:11,087 [trainer.py] => init_cls: 5
+2025-01-09 09:49:11,087 [trainer.py] => increment: 1
+2025-01-09 09:49:11,087 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:49:11,087 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:49:11,087 [trainer.py] => init_epoch: 200
+2025-01-09 09:49:11,087 [trainer.py] => init_lr: 0.1
+2025-01-09 09:49:11,087 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:49:11,087 [trainer.py] => epochs: 100
+2025-01-09 09:49:11,087 [trainer.py] => lr: 0.01
+2025-01-09 09:49:11,087 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:49:11,087 [trainer.py] => batch_size: 256
+2025-01-09 09:49:11,087 [trainer.py] => num_workers: 16
+2025-01-09 09:49:11,087 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:49:11,087 [trainer.py] => seed: 1993
+2025-01-09 09:49:11,087 [trainer.py] => outdir: data/
+2025-01-09 09:49:11,087 [trainer.py] => steps: 50
+2025-01-09 09:49:11,088 [trainer.py] => use_plms: True
+2025-01-09 09:49:11,088 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:49:11,088 [trainer.py] => n_sum: 500
+2025-01-09 09:49:11,088 [trainer.py] => n_samples: 40
+2025-01-09 09:49:11,088 [trainer.py] => scale: 5.0
+2025-01-09 09:49:11,088 [trainer.py] => H: 256
+2025-01-09 09:49:11,088 [trainer.py] => W: 256
+2025-01-09 09:49:12,523 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:49:45,464 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:49:45,464 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:49:45,464 [trainer.py] => dataset: cifar10
+2025-01-09 09:49:45,464 [trainer.py] => memory_size: 0
+2025-01-09 09:49:45,464 [trainer.py] => memory_per_class: 0
+2025-01-09 09:49:45,464 [trainer.py] => fixed_memory: False
+2025-01-09 09:49:45,464 [trainer.py] => shuffle: True
+2025-01-09 09:49:45,464 [trainer.py] => init_cls: 5
+2025-01-09 09:49:45,464 [trainer.py] => increment: 1
+2025-01-09 09:49:45,464 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:49:45,464 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:49:45,464 [trainer.py] => init_epoch: 200
+2025-01-09 09:49:45,464 [trainer.py] => init_lr: 0.1
+2025-01-09 09:49:45,464 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:49:45,465 [trainer.py] => epochs: 100
+2025-01-09 09:49:45,465 [trainer.py] => lr: 0.01
+2025-01-09 09:49:45,465 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:49:45,465 [trainer.py] => batch_size: 256
+2025-01-09 09:49:45,465 [trainer.py] => num_workers: 16
+2025-01-09 09:49:45,465 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:49:45,465 [trainer.py] => seed: 1993
+2025-01-09 09:49:45,465 [trainer.py] => outdir: data/
+2025-01-09 09:49:45,465 [trainer.py] => steps: 50
+2025-01-09 09:49:45,465 [trainer.py] => use_plms: True
+2025-01-09 09:49:45,465 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:49:45,465 [trainer.py] => n_sum: 500
+2025-01-09 09:49:45,465 [trainer.py] => n_samples: 40
+2025-01-09 09:49:45,465 [trainer.py] => scale: 5.0
+2025-01-09 09:49:45,465 [trainer.py] => H: 256
+2025-01-09 09:49:45,465 [trainer.py] => W: 256
+2025-01-09 09:49:46,899 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:51:30,079 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:51:30,079 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:51:30,079 [trainer.py] => dataset: cifar10
+2025-01-09 09:51:30,079 [trainer.py] => memory_size: 0
+2025-01-09 09:51:30,079 [trainer.py] => memory_per_class: 0
+2025-01-09 09:51:30,079 [trainer.py] => fixed_memory: False
+2025-01-09 09:51:30,079 [trainer.py] => shuffle: True
+2025-01-09 09:51:30,079 [trainer.py] => init_cls: 5
+2025-01-09 09:51:30,080 [trainer.py] => increment: 1
+2025-01-09 09:51:30,080 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:51:30,080 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:51:30,080 [trainer.py] => init_epoch: 200
+2025-01-09 09:51:30,080 [trainer.py] => init_lr: 0.1
+2025-01-09 09:51:30,080 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:51:30,080 [trainer.py] => epochs: 100
+2025-01-09 09:51:30,080 [trainer.py] => lr: 0.01
+2025-01-09 09:51:30,080 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:51:30,080 [trainer.py] => batch_size: 256
+2025-01-09 09:51:30,080 [trainer.py] => num_workers: 16
+2025-01-09 09:51:30,080 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:51:30,080 [trainer.py] => seed: 1993
+2025-01-09 09:51:30,080 [trainer.py] => outdir: data/
+2025-01-09 09:51:30,080 [trainer.py] => steps: 50
+2025-01-09 09:51:30,080 [trainer.py] => use_plms: True
+2025-01-09 09:51:30,080 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:51:30,080 [trainer.py] => n_sum: 500
+2025-01-09 09:51:30,080 [trainer.py] => n_samples: 40
+2025-01-09 09:51:30,080 [trainer.py] => scale: 5.0
+2025-01-09 09:51:30,080 [trainer.py] => H: 256
+2025-01-09 09:51:30,080 [trainer.py] => W: 256
+2025-01-09 09:51:31,512 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 09:51:50,365 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 09:51:50,365 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 09:51:50,365 [trainer.py] => dataset: cifar10
+2025-01-09 09:51:50,365 [trainer.py] => memory_size: 0
+2025-01-09 09:51:50,365 [trainer.py] => memory_per_class: 0
+2025-01-09 09:51:50,365 [trainer.py] => fixed_memory: False
+2025-01-09 09:51:50,366 [trainer.py] => shuffle: True
+2025-01-09 09:51:50,366 [trainer.py] => init_cls: 5
+2025-01-09 09:51:50,366 [trainer.py] => increment: 1
+2025-01-09 09:51:50,366 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 09:51:50,366 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 09:51:50,366 [trainer.py] => init_epoch: 200
+2025-01-09 09:51:50,366 [trainer.py] => init_lr: 0.1
+2025-01-09 09:51:50,366 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 09:51:50,366 [trainer.py] => epochs: 100
+2025-01-09 09:51:50,366 [trainer.py] => lr: 0.01
+2025-01-09 09:51:50,366 [trainer.py] => weight_decay: 0.0005
+2025-01-09 09:51:50,366 [trainer.py] => batch_size: 256
+2025-01-09 09:51:50,366 [trainer.py] => num_workers: 16
+2025-01-09 09:51:50,366 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 09:51:50,366 [trainer.py] => seed: 1993
+2025-01-09 09:51:50,366 [trainer.py] => outdir: data/
+2025-01-09 09:51:50,366 [trainer.py] => steps: 50
+2025-01-09 09:51:50,366 [trainer.py] => use_plms: True
+2025-01-09 09:51:50,366 [trainer.py] => ddim_eta: 1.0
+2025-01-09 09:51:50,366 [trainer.py] => n_sum: 500
+2025-01-09 09:51:50,366 [trainer.py] => n_samples: 40
+2025-01-09 09:51:50,366 [trainer.py] => scale: 5.0
+2025-01-09 09:51:50,366 [trainer.py] => H: 256
+2025-01-09 09:51:50,366 [trainer.py] => W: 256
+2025-01-09 09:51:51,789 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:07:25,905 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:07:25,905 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:07:25,905 [trainer.py] => dataset: cifar10
+2025-01-09 10:07:25,905 [trainer.py] => memory_size: 0
+2025-01-09 10:07:25,905 [trainer.py] => memory_per_class: 0
+2025-01-09 10:07:25,905 [trainer.py] => fixed_memory: False
+2025-01-09 10:07:25,905 [trainer.py] => shuffle: True
+2025-01-09 10:07:25,905 [trainer.py] => init_cls: 5
+2025-01-09 10:07:25,905 [trainer.py] => increment: 1
+2025-01-09 10:07:25,905 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:07:25,905 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:07:25,905 [trainer.py] => init_epoch: 200
+2025-01-09 10:07:25,905 [trainer.py] => init_lr: 0.1
+2025-01-09 10:07:25,905 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:07:25,905 [trainer.py] => epochs: 100
+2025-01-09 10:07:25,905 [trainer.py] => lr: 0.01
+2025-01-09 10:07:25,905 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:07:25,905 [trainer.py] => batch_size: 256
+2025-01-09 10:07:25,905 [trainer.py] => num_workers: 16
+2025-01-09 10:07:25,905 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:07:25,905 [trainer.py] => seed: 1993
+2025-01-09 10:07:25,906 [trainer.py] => outdir: data/
+2025-01-09 10:07:25,906 [trainer.py] => steps: 50
+2025-01-09 10:07:25,906 [trainer.py] => use_plms: True
+2025-01-09 10:07:25,906 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:07:25,906 [trainer.py] => n_sum: 500
+2025-01-09 10:07:25,906 [trainer.py] => n_samples: 40
+2025-01-09 10:07:25,906 [trainer.py] => scale: 5.0
+2025-01-09 10:07:25,906 [trainer.py] => H: 256
+2025-01-09 10:07:25,906 [trainer.py] => W: 256
+2025-01-09 10:07:27,413 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:07:59,807 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:07:59,807 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:07:59,807 [trainer.py] => dataset: cifar10
+2025-01-09 10:07:59,807 [trainer.py] => memory_size: 0
+2025-01-09 10:07:59,807 [trainer.py] => memory_per_class: 0
+2025-01-09 10:07:59,807 [trainer.py] => fixed_memory: False
+2025-01-09 10:07:59,808 [trainer.py] => shuffle: True
+2025-01-09 10:07:59,808 [trainer.py] => init_cls: 5
+2025-01-09 10:07:59,808 [trainer.py] => increment: 1
+2025-01-09 10:07:59,808 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:07:59,808 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:07:59,808 [trainer.py] => init_epoch: 200
+2025-01-09 10:07:59,808 [trainer.py] => init_lr: 0.1
+2025-01-09 10:07:59,808 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:07:59,808 [trainer.py] => epochs: 100
+2025-01-09 10:07:59,808 [trainer.py] => lr: 0.01
+2025-01-09 10:07:59,808 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:07:59,808 [trainer.py] => batch_size: 256
+2025-01-09 10:07:59,808 [trainer.py] => num_workers: 16
+2025-01-09 10:07:59,808 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:07:59,808 [trainer.py] => seed: 1993
+2025-01-09 10:07:59,808 [trainer.py] => outdir: data/
+2025-01-09 10:07:59,808 [trainer.py] => steps: 50
+2025-01-09 10:07:59,808 [trainer.py] => use_plms: True
+2025-01-09 10:07:59,808 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:07:59,808 [trainer.py] => n_sum: 500
+2025-01-09 10:07:59,808 [trainer.py] => n_samples: 40
+2025-01-09 10:07:59,808 [trainer.py] => scale: 5.0
+2025-01-09 10:07:59,808 [trainer.py] => H: 256
+2025-01-09 10:07:59,808 [trainer.py] => W: 256
+2025-01-09 10:08:01,269 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:08:59,593 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:08:59,593 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:08:59,593 [trainer.py] => dataset: cifar10
+2025-01-09 10:08:59,593 [trainer.py] => memory_size: 0
+2025-01-09 10:08:59,593 [trainer.py] => memory_per_class: 0
+2025-01-09 10:08:59,593 [trainer.py] => fixed_memory: False
+2025-01-09 10:08:59,593 [trainer.py] => shuffle: True
+2025-01-09 10:08:59,593 [trainer.py] => init_cls: 5
+2025-01-09 10:08:59,593 [trainer.py] => increment: 1
+2025-01-09 10:08:59,593 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:08:59,593 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:08:59,593 [trainer.py] => init_epoch: 200
+2025-01-09 10:08:59,593 [trainer.py] => init_lr: 0.1
+2025-01-09 10:08:59,593 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:08:59,593 [trainer.py] => epochs: 100
+2025-01-09 10:08:59,593 [trainer.py] => lr: 0.01
+2025-01-09 10:08:59,593 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:08:59,594 [trainer.py] => batch_size: 256
+2025-01-09 10:08:59,594 [trainer.py] => num_workers: 16
+2025-01-09 10:08:59,594 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:08:59,594 [trainer.py] => seed: 1993
+2025-01-09 10:08:59,594 [trainer.py] => outdir: data/
+2025-01-09 10:08:59,594 [trainer.py] => steps: 50
+2025-01-09 10:08:59,594 [trainer.py] => use_plms: True
+2025-01-09 10:08:59,594 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:08:59,594 [trainer.py] => n_sum: 500
+2025-01-09 10:08:59,594 [trainer.py] => n_samples: 40
+2025-01-09 10:08:59,594 [trainer.py] => scale: 5.0
+2025-01-09 10:08:59,594 [trainer.py] => H: 256
+2025-01-09 10:08:59,594 [trainer.py] => W: 256
+2025-01-09 10:09:01,037 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:09:22,986 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:09:22,986 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:09:22,986 [trainer.py] => dataset: cifar10
+2025-01-09 10:09:22,986 [trainer.py] => memory_size: 0
+2025-01-09 10:09:22,986 [trainer.py] => memory_per_class: 0
+2025-01-09 10:09:22,986 [trainer.py] => fixed_memory: False
+2025-01-09 10:09:22,986 [trainer.py] => shuffle: True
+2025-01-09 10:09:22,986 [trainer.py] => init_cls: 5
+2025-01-09 10:09:22,986 [trainer.py] => increment: 1
+2025-01-09 10:09:22,986 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:09:22,986 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:09:22,986 [trainer.py] => init_epoch: 200
+2025-01-09 10:09:22,986 [trainer.py] => init_lr: 0.1
+2025-01-09 10:09:22,986 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:09:22,986 [trainer.py] => epochs: 100
+2025-01-09 10:09:22,986 [trainer.py] => lr: 0.01
+2025-01-09 10:09:22,986 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:09:22,986 [trainer.py] => batch_size: 256
+2025-01-09 10:09:22,986 [trainer.py] => num_workers: 16
+2025-01-09 10:09:22,986 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:09:22,986 [trainer.py] => seed: 1993
+2025-01-09 10:09:22,986 [trainer.py] => outdir: data/
+2025-01-09 10:09:22,986 [trainer.py] => steps: 50
+2025-01-09 10:09:22,986 [trainer.py] => use_plms: True
+2025-01-09 10:09:22,986 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:09:22,986 [trainer.py] => n_sum: 500
+2025-01-09 10:09:22,987 [trainer.py] => n_samples: 40
+2025-01-09 10:09:22,987 [trainer.py] => scale: 5.0
+2025-01-09 10:09:22,987 [trainer.py] => H: 256
+2025-01-09 10:09:22,987 [trainer.py] => W: 256
+2025-01-09 10:09:24,447 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:09:39,584 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:09:39,584 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:09:39,584 [trainer.py] => dataset: cifar10
+2025-01-09 10:09:39,584 [trainer.py] => memory_size: 0
+2025-01-09 10:09:39,584 [trainer.py] => memory_per_class: 0
+2025-01-09 10:09:39,584 [trainer.py] => fixed_memory: False
+2025-01-09 10:09:39,584 [trainer.py] => shuffle: True
+2025-01-09 10:09:39,584 [trainer.py] => init_cls: 5
+2025-01-09 10:09:39,584 [trainer.py] => increment: 1
+2025-01-09 10:09:39,584 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:09:39,584 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:09:39,584 [trainer.py] => init_epoch: 200
+2025-01-09 10:09:39,584 [trainer.py] => init_lr: 0.1
+2025-01-09 10:09:39,584 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:09:39,584 [trainer.py] => epochs: 100
+2025-01-09 10:09:39,584 [trainer.py] => lr: 0.01
+2025-01-09 10:09:39,584 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:09:39,584 [trainer.py] => batch_size: 256
+2025-01-09 10:09:39,585 [trainer.py] => num_workers: 16
+2025-01-09 10:09:39,585 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:09:39,585 [trainer.py] => seed: 1993
+2025-01-09 10:09:39,585 [trainer.py] => outdir: data/
+2025-01-09 10:09:39,585 [trainer.py] => steps: 50
+2025-01-09 10:09:39,585 [trainer.py] => use_plms: True
+2025-01-09 10:09:39,585 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:09:39,585 [trainer.py] => n_sum: 500
+2025-01-09 10:09:39,585 [trainer.py] => n_samples: 40
+2025-01-09 10:09:39,585 [trainer.py] => scale: 5.0
+2025-01-09 10:09:39,585 [trainer.py] => H: 256
+2025-01-09 10:09:39,585 [trainer.py] => W: 256
+2025-01-09 10:09:41,021 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:10:57,870 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:10:57,870 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:10:57,870 [trainer.py] => dataset: cifar10
+2025-01-09 10:10:57,870 [trainer.py] => memory_size: 0
+2025-01-09 10:10:57,870 [trainer.py] => memory_per_class: 0
+2025-01-09 10:10:57,870 [trainer.py] => fixed_memory: False
+2025-01-09 10:10:57,870 [trainer.py] => shuffle: True
+2025-01-09 10:10:57,870 [trainer.py] => init_cls: 5
+2025-01-09 10:10:57,870 [trainer.py] => increment: 1
+2025-01-09 10:10:57,870 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:10:57,870 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:10:57,870 [trainer.py] => init_epoch: 200
+2025-01-09 10:10:57,870 [trainer.py] => init_lr: 0.1
+2025-01-09 10:10:57,870 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:10:57,871 [trainer.py] => epochs: 100
+2025-01-09 10:10:57,871 [trainer.py] => lr: 0.01
+2025-01-09 10:10:57,871 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:10:57,871 [trainer.py] => batch_size: 256
+2025-01-09 10:10:57,871 [trainer.py] => num_workers: 16
+2025-01-09 10:10:57,871 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:10:57,871 [trainer.py] => seed: 1993
+2025-01-09 10:10:57,871 [trainer.py] => outdir: data/
+2025-01-09 10:10:57,871 [trainer.py] => steps: 50
+2025-01-09 10:10:57,871 [trainer.py] => use_plms: True
+2025-01-09 10:10:57,871 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:10:57,871 [trainer.py] => n_sum: 500
+2025-01-09 10:10:57,871 [trainer.py] => n_samples: 40
+2025-01-09 10:10:57,871 [trainer.py] => scale: 5.0
+2025-01-09 10:10:57,871 [trainer.py] => H: 256
+2025-01-09 10:10:57,871 [trainer.py] => W: 256
+2025-01-09 10:10:59,324 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:11:52,610 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:11:52,610 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:11:52,610 [trainer.py] => dataset: cifar10
+2025-01-09 10:11:52,610 [trainer.py] => memory_size: 0
+2025-01-09 10:11:52,610 [trainer.py] => memory_per_class: 0
+2025-01-09 10:11:52,610 [trainer.py] => fixed_memory: False
+2025-01-09 10:11:52,610 [trainer.py] => shuffle: True
+2025-01-09 10:11:52,610 [trainer.py] => init_cls: 5
+2025-01-09 10:11:52,610 [trainer.py] => increment: 1
+2025-01-09 10:11:52,610 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:11:52,610 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:11:52,610 [trainer.py] => init_epoch: 200
+2025-01-09 10:11:52,610 [trainer.py] => init_lr: 0.1
+2025-01-09 10:11:52,610 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:11:52,610 [trainer.py] => epochs: 100
+2025-01-09 10:11:52,610 [trainer.py] => lr: 0.01
+2025-01-09 10:11:52,610 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:11:52,610 [trainer.py] => batch_size: 256
+2025-01-09 10:11:52,610 [trainer.py] => num_workers: 16
+2025-01-09 10:11:52,610 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:11:52,610 [trainer.py] => seed: 1993
+2025-01-09 10:11:52,610 [trainer.py] => outdir: data/
+2025-01-09 10:11:52,610 [trainer.py] => steps: 50
+2025-01-09 10:11:52,610 [trainer.py] => use_plms: True
+2025-01-09 10:11:52,611 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:11:52,611 [trainer.py] => n_sum: 500
+2025-01-09 10:11:52,611 [trainer.py] => n_samples: 40
+2025-01-09 10:11:52,611 [trainer.py] => scale: 5.0
+2025-01-09 10:11:52,611 [trainer.py] => H: 256
+2025-01-09 10:11:52,611 [trainer.py] => W: 256
+2025-01-09 10:11:54,107 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:12:21,450 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:12:21,450 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:12:21,450 [trainer.py] => dataset: cifar10
+2025-01-09 10:12:21,450 [trainer.py] => memory_size: 0
+2025-01-09 10:12:21,450 [trainer.py] => memory_per_class: 0
+2025-01-09 10:12:21,450 [trainer.py] => fixed_memory: False
+2025-01-09 10:12:21,450 [trainer.py] => shuffle: True
+2025-01-09 10:12:21,450 [trainer.py] => init_cls: 5
+2025-01-09 10:12:21,450 [trainer.py] => increment: 1
+2025-01-09 10:12:21,450 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:12:21,450 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:12:21,451 [trainer.py] => init_epoch: 200
+2025-01-09 10:12:21,451 [trainer.py] => init_lr: 0.1
+2025-01-09 10:12:21,451 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:12:21,451 [trainer.py] => epochs: 100
+2025-01-09 10:12:21,451 [trainer.py] => lr: 0.01
+2025-01-09 10:12:21,451 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:12:21,451 [trainer.py] => batch_size: 256
+2025-01-09 10:12:21,451 [trainer.py] => num_workers: 16
+2025-01-09 10:12:21,451 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:12:21,451 [trainer.py] => seed: 1993
+2025-01-09 10:12:21,451 [trainer.py] => outdir: data/
+2025-01-09 10:12:21,451 [trainer.py] => steps: 50
+2025-01-09 10:12:21,451 [trainer.py] => use_plms: True
+2025-01-09 10:12:21,451 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:12:21,451 [trainer.py] => n_sum: 500
+2025-01-09 10:12:21,451 [trainer.py] => n_samples: 40
+2025-01-09 10:12:21,451 [trainer.py] => scale: 5.0
+2025-01-09 10:12:21,451 [trainer.py] => H: 256
+2025-01-09 10:12:21,451 [trainer.py] => W: 256
+2025-01-09 10:12:22,898 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:13:49,939 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:13:49,939 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:13:49,939 [trainer.py] => dataset: cifar10
+2025-01-09 10:13:49,939 [trainer.py] => memory_size: 0
+2025-01-09 10:13:49,939 [trainer.py] => memory_per_class: 0
+2025-01-09 10:13:49,939 [trainer.py] => fixed_memory: False
+2025-01-09 10:13:49,939 [trainer.py] => shuffle: True
+2025-01-09 10:13:49,939 [trainer.py] => init_cls: 5
+2025-01-09 10:13:49,939 [trainer.py] => increment: 1
+2025-01-09 10:13:49,939 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:13:49,939 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:13:49,939 [trainer.py] => init_epoch: 200
+2025-01-09 10:13:49,939 [trainer.py] => init_lr: 0.1
+2025-01-09 10:13:49,939 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:13:49,939 [trainer.py] => epochs: 100
+2025-01-09 10:13:49,939 [trainer.py] => lr: 0.01
+2025-01-09 10:13:49,939 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:13:49,939 [trainer.py] => batch_size: 256
+2025-01-09 10:13:49,939 [trainer.py] => num_workers: 16
+2025-01-09 10:13:49,939 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:13:49,939 [trainer.py] => seed: 1993
+2025-01-09 10:13:49,940 [trainer.py] => outdir: data/
+2025-01-09 10:13:49,940 [trainer.py] => steps: 50
+2025-01-09 10:13:49,940 [trainer.py] => use_plms: True
+2025-01-09 10:13:49,940 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:13:49,940 [trainer.py] => n_sum: 500
+2025-01-09 10:13:49,940 [trainer.py] => n_samples: 40
+2025-01-09 10:13:49,940 [trainer.py] => scale: 5.0
+2025-01-09 10:13:49,940 [trainer.py] => H: 256
+2025-01-09 10:13:49,940 [trainer.py] => W: 256
+2025-01-09 10:13:51,436 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:14:24,885 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:14:24,885 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:14:24,885 [trainer.py] => dataset: cifar10
+2025-01-09 10:14:24,885 [trainer.py] => memory_size: 0
+2025-01-09 10:14:24,886 [trainer.py] => memory_per_class: 0
+2025-01-09 10:14:24,886 [trainer.py] => fixed_memory: False
+2025-01-09 10:14:24,886 [trainer.py] => shuffle: True
+2025-01-09 10:14:24,886 [trainer.py] => init_cls: 5
+2025-01-09 10:14:24,886 [trainer.py] => increment: 1
+2025-01-09 10:14:24,886 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:14:24,886 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:14:24,886 [trainer.py] => init_epoch: 200
+2025-01-09 10:14:24,886 [trainer.py] => init_lr: 0.1
+2025-01-09 10:14:24,886 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:14:24,886 [trainer.py] => epochs: 100
+2025-01-09 10:14:24,886 [trainer.py] => lr: 0.01
+2025-01-09 10:14:24,886 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:14:24,886 [trainer.py] => batch_size: 256
+2025-01-09 10:14:24,886 [trainer.py] => num_workers: 16
+2025-01-09 10:14:24,886 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:14:24,886 [trainer.py] => seed: 1993
+2025-01-09 10:14:24,886 [trainer.py] => outdir: data/
+2025-01-09 10:14:24,886 [trainer.py] => steps: 50
+2025-01-09 10:14:24,886 [trainer.py] => use_plms: True
+2025-01-09 10:14:24,886 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:14:24,886 [trainer.py] => n_sum: 500
+2025-01-09 10:14:24,886 [trainer.py] => n_samples: 40
+2025-01-09 10:14:24,886 [trainer.py] => scale: 5.0
+2025-01-09 10:14:24,886 [trainer.py] => H: 256
+2025-01-09 10:14:24,886 [trainer.py] => W: 256
+2025-01-09 10:14:26,322 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:15:53,886 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:15:53,886 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:15:53,886 [trainer.py] => dataset: cifar10
+2025-01-09 10:15:53,886 [trainer.py] => memory_size: 0
+2025-01-09 10:15:53,886 [trainer.py] => memory_per_class: 0
+2025-01-09 10:15:53,887 [trainer.py] => fixed_memory: False
+2025-01-09 10:15:53,887 [trainer.py] => shuffle: True
+2025-01-09 10:15:53,887 [trainer.py] => init_cls: 5
+2025-01-09 10:15:53,887 [trainer.py] => increment: 1
+2025-01-09 10:15:53,887 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:15:53,887 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:15:53,887 [trainer.py] => init_epoch: 200
+2025-01-09 10:15:53,887 [trainer.py] => init_lr: 0.1
+2025-01-09 10:15:53,887 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:15:53,887 [trainer.py] => epochs: 100
+2025-01-09 10:15:53,887 [trainer.py] => lr: 0.01
+2025-01-09 10:15:53,887 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:15:53,887 [trainer.py] => batch_size: 256
+2025-01-09 10:15:53,887 [trainer.py] => num_workers: 16
+2025-01-09 10:15:53,887 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:15:53,887 [trainer.py] => seed: 1993
+2025-01-09 10:15:53,887 [trainer.py] => outdir: data/
+2025-01-09 10:15:53,887 [trainer.py] => steps: 50
+2025-01-09 10:15:53,887 [trainer.py] => use_plms: True
+2025-01-09 10:15:53,887 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:15:53,887 [trainer.py] => n_sum: 500
+2025-01-09 10:15:53,887 [trainer.py] => n_samples: 40
+2025-01-09 10:15:53,887 [trainer.py] => scale: 5.0
+2025-01-09 10:15:53,887 [trainer.py] => H: 256
+2025-01-09 10:15:53,887 [trainer.py] => W: 256
+2025-01-09 10:15:55,325 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:16:39,488 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:16:39,488 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:16:39,488 [trainer.py] => dataset: cifar10
+2025-01-09 10:16:39,488 [trainer.py] => memory_size: 0
+2025-01-09 10:16:39,488 [trainer.py] => memory_per_class: 0
+2025-01-09 10:16:39,488 [trainer.py] => fixed_memory: False
+2025-01-09 10:16:39,488 [trainer.py] => shuffle: True
+2025-01-09 10:16:39,488 [trainer.py] => init_cls: 5
+2025-01-09 10:16:39,488 [trainer.py] => increment: 1
+2025-01-09 10:16:39,488 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:16:39,488 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:16:39,488 [trainer.py] => init_epoch: 200
+2025-01-09 10:16:39,488 [trainer.py] => init_lr: 0.1
+2025-01-09 10:16:39,488 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:16:39,488 [trainer.py] => epochs: 100
+2025-01-09 10:16:39,488 [trainer.py] => lr: 0.01
+2025-01-09 10:16:39,488 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:16:39,488 [trainer.py] => batch_size: 256
+2025-01-09 10:16:39,488 [trainer.py] => num_workers: 16
+2025-01-09 10:16:39,488 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:16:39,488 [trainer.py] => seed: 1993
+2025-01-09 10:16:39,488 [trainer.py] => outdir: data/
+2025-01-09 10:16:39,488 [trainer.py] => steps: 50
+2025-01-09 10:16:39,488 [trainer.py] => use_plms: True
+2025-01-09 10:16:39,488 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:16:39,488 [trainer.py] => n_sum: 500
+2025-01-09 10:16:39,489 [trainer.py] => n_samples: 40
+2025-01-09 10:16:39,489 [trainer.py] => scale: 5.0
+2025-01-09 10:16:39,489 [trainer.py] => H: 256
+2025-01-09 10:16:39,489 [trainer.py] => W: 256
+2025-01-09 10:16:40,932 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:17:09,550 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:17:09,550 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:17:09,550 [trainer.py] => dataset: cifar10
+2025-01-09 10:17:09,550 [trainer.py] => memory_size: 0
+2025-01-09 10:17:09,550 [trainer.py] => memory_per_class: 0
+2025-01-09 10:17:09,550 [trainer.py] => fixed_memory: False
+2025-01-09 10:17:09,550 [trainer.py] => shuffle: True
+2025-01-09 10:17:09,550 [trainer.py] => init_cls: 5
+2025-01-09 10:17:09,550 [trainer.py] => increment: 1
+2025-01-09 10:17:09,550 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:17:09,550 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:17:09,550 [trainer.py] => init_epoch: 200
+2025-01-09 10:17:09,550 [trainer.py] => init_lr: 0.1
+2025-01-09 10:17:09,550 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:17:09,550 [trainer.py] => epochs: 100
+2025-01-09 10:17:09,550 [trainer.py] => lr: 0.01
+2025-01-09 10:17:09,550 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:17:09,550 [trainer.py] => batch_size: 256
+2025-01-09 10:17:09,550 [trainer.py] => num_workers: 16
+2025-01-09 10:17:09,550 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:17:09,550 [trainer.py] => seed: 1993
+2025-01-09 10:17:09,550 [trainer.py] => outdir: data/
+2025-01-09 10:17:09,550 [trainer.py] => steps: 50
+2025-01-09 10:17:09,550 [trainer.py] => use_plms: True
+2025-01-09 10:17:09,551 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:17:09,551 [trainer.py] => n_sum: 500
+2025-01-09 10:17:09,551 [trainer.py] => n_samples: 40
+2025-01-09 10:17:09,551 [trainer.py] => scale: 5.0
+2025-01-09 10:17:09,551 [trainer.py] => H: 256
+2025-01-09 10:17:09,551 [trainer.py] => W: 256
+2025-01-09 10:17:11,053 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:18:41,580 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:18:41,580 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:18:41,580 [trainer.py] => dataset: cifar10
+2025-01-09 10:18:41,580 [trainer.py] => memory_size: 0
+2025-01-09 10:18:41,580 [trainer.py] => memory_per_class: 0
+2025-01-09 10:18:41,580 [trainer.py] => fixed_memory: False
+2025-01-09 10:18:41,580 [trainer.py] => shuffle: True
+2025-01-09 10:18:41,580 [trainer.py] => init_cls: 5
+2025-01-09 10:18:41,580 [trainer.py] => increment: 1
+2025-01-09 10:18:41,580 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:18:41,580 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:18:41,580 [trainer.py] => init_epoch: 200
+2025-01-09 10:18:41,580 [trainer.py] => init_lr: 0.1
+2025-01-09 10:18:41,580 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:18:41,580 [trainer.py] => epochs: 100
+2025-01-09 10:18:41,580 [trainer.py] => lr: 0.01
+2025-01-09 10:18:41,580 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:18:41,580 [trainer.py] => batch_size: 256
+2025-01-09 10:18:41,580 [trainer.py] => num_workers: 16
+2025-01-09 10:18:41,580 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:18:41,580 [trainer.py] => seed: 1993
+2025-01-09 10:18:41,580 [trainer.py] => outdir: data/
+2025-01-09 10:18:41,580 [trainer.py] => steps: 50
+2025-01-09 10:18:41,580 [trainer.py] => use_plms: True
+2025-01-09 10:18:41,580 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:18:41,580 [trainer.py] => n_sum: 500
+2025-01-09 10:18:41,580 [trainer.py] => n_samples: 40
+2025-01-09 10:18:41,580 [trainer.py] => scale: 5.0
+2025-01-09 10:18:41,580 [trainer.py] => H: 256
+2025-01-09 10:18:41,581 [trainer.py] => W: 256
+2025-01-09 10:18:43,017 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:20:54,846 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:20:54,846 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:20:54,847 [trainer.py] => dataset: cifar10
+2025-01-09 10:20:54,847 [trainer.py] => memory_size: 0
+2025-01-09 10:20:54,847 [trainer.py] => memory_per_class: 0
+2025-01-09 10:20:54,847 [trainer.py] => fixed_memory: False
+2025-01-09 10:20:54,847 [trainer.py] => shuffle: True
+2025-01-09 10:20:54,847 [trainer.py] => init_cls: 5
+2025-01-09 10:20:54,847 [trainer.py] => increment: 1
+2025-01-09 10:20:54,847 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:20:54,847 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:20:54,847 [trainer.py] => init_epoch: 200
+2025-01-09 10:20:54,847 [trainer.py] => init_lr: 0.1
+2025-01-09 10:20:54,847 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:20:54,847 [trainer.py] => epochs: 100
+2025-01-09 10:20:54,847 [trainer.py] => lr: 0.01
+2025-01-09 10:20:54,847 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:20:54,847 [trainer.py] => batch_size: 256
+2025-01-09 10:20:54,847 [trainer.py] => num_workers: 16
+2025-01-09 10:20:54,847 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:20:54,847 [trainer.py] => seed: 1993
+2025-01-09 10:20:54,847 [trainer.py] => outdir: data/
+2025-01-09 10:20:54,847 [trainer.py] => steps: 50
+2025-01-09 10:20:54,847 [trainer.py] => use_plms: True
+2025-01-09 10:20:54,847 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:20:54,847 [trainer.py] => n_sum: 500
+2025-01-09 10:20:54,847 [trainer.py] => n_samples: 40
+2025-01-09 10:20:54,847 [trainer.py] => scale: 5.0
+2025-01-09 10:20:54,847 [trainer.py] => H: 256
+2025-01-09 10:20:54,847 [trainer.py] => W: 256
+2025-01-09 10:20:56,282 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:21:15,952 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:21:15,952 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:21:15,952 [trainer.py] => dataset: cifar10
+2025-01-09 10:21:15,952 [trainer.py] => memory_size: 0
+2025-01-09 10:21:15,952 [trainer.py] => memory_per_class: 0
+2025-01-09 10:21:15,952 [trainer.py] => fixed_memory: False
+2025-01-09 10:21:15,952 [trainer.py] => shuffle: True
+2025-01-09 10:21:15,952 [trainer.py] => init_cls: 5
+2025-01-09 10:21:15,952 [trainer.py] => increment: 1
+2025-01-09 10:21:15,952 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:21:15,952 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:21:15,952 [trainer.py] => init_epoch: 200
+2025-01-09 10:21:15,952 [trainer.py] => init_lr: 0.1
+2025-01-09 10:21:15,952 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:21:15,952 [trainer.py] => epochs: 100
+2025-01-09 10:21:15,952 [trainer.py] => lr: 0.01
+2025-01-09 10:21:15,952 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:21:15,952 [trainer.py] => batch_size: 256
+2025-01-09 10:21:15,952 [trainer.py] => num_workers: 16
+2025-01-09 10:21:15,952 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:21:15,952 [trainer.py] => seed: 1993
+2025-01-09 10:21:15,952 [trainer.py] => outdir: data/
+2025-01-09 10:21:15,952 [trainer.py] => steps: 50
+2025-01-09 10:21:15,952 [trainer.py] => use_plms: True
+2025-01-09 10:21:15,952 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:21:15,952 [trainer.py] => n_sum: 500
+2025-01-09 10:21:15,952 [trainer.py] => n_samples: 40
+2025-01-09 10:21:15,952 [trainer.py] => scale: 5.0
+2025-01-09 10:21:15,952 [trainer.py] => H: 256
+2025-01-09 10:21:15,952 [trainer.py] => W: 256
+2025-01-09 10:21:17,387 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:22:01,767 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:22:01,767 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:22:01,767 [trainer.py] => dataset: cifar10
+2025-01-09 10:22:01,768 [trainer.py] => memory_size: 0
+2025-01-09 10:22:01,768 [trainer.py] => memory_per_class: 0
+2025-01-09 10:22:01,768 [trainer.py] => fixed_memory: False
+2025-01-09 10:22:01,768 [trainer.py] => shuffle: True
+2025-01-09 10:22:01,768 [trainer.py] => init_cls: 5
+2025-01-09 10:22:01,768 [trainer.py] => increment: 1
+2025-01-09 10:22:01,768 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:22:01,768 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:22:01,768 [trainer.py] => init_epoch: 200
+2025-01-09 10:22:01,768 [trainer.py] => init_lr: 0.1
+2025-01-09 10:22:01,768 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:22:01,768 [trainer.py] => epochs: 100
+2025-01-09 10:22:01,768 [trainer.py] => lr: 0.01
+2025-01-09 10:22:01,768 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:22:01,768 [trainer.py] => batch_size: 256
+2025-01-09 10:22:01,768 [trainer.py] => num_workers: 16
+2025-01-09 10:22:01,768 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:22:01,768 [trainer.py] => seed: 1993
+2025-01-09 10:22:01,768 [trainer.py] => outdir: data/
+2025-01-09 10:22:01,768 [trainer.py] => steps: 50
+2025-01-09 10:22:01,768 [trainer.py] => use_plms: True
+2025-01-09 10:22:01,768 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:22:01,768 [trainer.py] => n_sum: 500
+2025-01-09 10:22:01,768 [trainer.py] => n_samples: 40
+2025-01-09 10:22:01,768 [trainer.py] => scale: 5.0
+2025-01-09 10:22:01,768 [trainer.py] => H: 256
+2025-01-09 10:22:01,768 [trainer.py] => W: 256
+2025-01-09 10:22:03,265 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:22:54,308 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:22:54,308 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:22:54,308 [trainer.py] => dataset: cifar10
+2025-01-09 10:22:54,308 [trainer.py] => memory_size: 0
+2025-01-09 10:22:54,308 [trainer.py] => memory_per_class: 0
+2025-01-09 10:22:54,308 [trainer.py] => fixed_memory: False
+2025-01-09 10:22:54,308 [trainer.py] => shuffle: True
+2025-01-09 10:22:54,308 [trainer.py] => init_cls: 5
+2025-01-09 10:22:54,308 [trainer.py] => increment: 1
+2025-01-09 10:22:54,308 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:22:54,308 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:22:54,308 [trainer.py] => init_epoch: 200
+2025-01-09 10:22:54,308 [trainer.py] => init_lr: 0.1
+2025-01-09 10:22:54,308 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:22:54,308 [trainer.py] => epochs: 100
+2025-01-09 10:22:54,308 [trainer.py] => lr: 0.01
+2025-01-09 10:22:54,308 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:22:54,308 [trainer.py] => batch_size: 256
+2025-01-09 10:22:54,308 [trainer.py] => num_workers: 16
+2025-01-09 10:22:54,308 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:22:54,308 [trainer.py] => seed: 1993
+2025-01-09 10:22:54,308 [trainer.py] => outdir: data/
+2025-01-09 10:22:54,308 [trainer.py] => steps: 50
+2025-01-09 10:22:54,308 [trainer.py] => use_plms: True
+2025-01-09 10:22:54,309 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:22:54,309 [trainer.py] => n_sum: 500
+2025-01-09 10:22:54,309 [trainer.py] => n_samples: 40
+2025-01-09 10:22:54,309 [trainer.py] => scale: 5.0
+2025-01-09 10:22:54,309 [trainer.py] => H: 256
+2025-01-09 10:22:54,309 [trainer.py] => W: 256
+2025-01-09 10:22:55,746 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:23:15,207 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:23:15,207 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:23:15,207 [trainer.py] => dataset: cifar10
+2025-01-09 10:23:15,207 [trainer.py] => memory_size: 0
+2025-01-09 10:23:15,207 [trainer.py] => memory_per_class: 0
+2025-01-09 10:23:15,207 [trainer.py] => fixed_memory: False
+2025-01-09 10:23:15,207 [trainer.py] => shuffle: True
+2025-01-09 10:23:15,207 [trainer.py] => init_cls: 5
+2025-01-09 10:23:15,207 [trainer.py] => increment: 1
+2025-01-09 10:23:15,207 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:23:15,207 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:23:15,207 [trainer.py] => init_epoch: 200
+2025-01-09 10:23:15,207 [trainer.py] => init_lr: 0.1
+2025-01-09 10:23:15,207 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:23:15,207 [trainer.py] => epochs: 100
+2025-01-09 10:23:15,207 [trainer.py] => lr: 0.01
+2025-01-09 10:23:15,207 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:23:15,207 [trainer.py] => batch_size: 256
+2025-01-09 10:23:15,207 [trainer.py] => num_workers: 16
+2025-01-09 10:23:15,207 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:23:15,207 [trainer.py] => seed: 1993
+2025-01-09 10:23:15,207 [trainer.py] => outdir: data/
+2025-01-09 10:23:15,207 [trainer.py] => steps: 50
+2025-01-09 10:23:15,207 [trainer.py] => use_plms: True
+2025-01-09 10:23:15,207 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:23:15,207 [trainer.py] => n_sum: 500
+2025-01-09 10:23:15,207 [trainer.py] => n_samples: 40
+2025-01-09 10:23:15,207 [trainer.py] => scale: 5.0
+2025-01-09 10:23:15,207 [trainer.py] => H: 256
+2025-01-09 10:23:15,207 [trainer.py] => W: 256
+2025-01-09 10:23:16,656 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:23:36,059 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:23:36,059 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:23:36,059 [trainer.py] => dataset: cifar10
+2025-01-09 10:23:36,059 [trainer.py] => memory_size: 0
+2025-01-09 10:23:36,059 [trainer.py] => memory_per_class: 0
+2025-01-09 10:23:36,059 [trainer.py] => fixed_memory: False
+2025-01-09 10:23:36,059 [trainer.py] => shuffle: True
+2025-01-09 10:23:36,059 [trainer.py] => init_cls: 5
+2025-01-09 10:23:36,059 [trainer.py] => increment: 1
+2025-01-09 10:23:36,059 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:23:36,059 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:23:36,059 [trainer.py] => init_epoch: 200
+2025-01-09 10:23:36,059 [trainer.py] => init_lr: 0.1
+2025-01-09 10:23:36,059 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:23:36,059 [trainer.py] => epochs: 100
+2025-01-09 10:23:36,059 [trainer.py] => lr: 0.01
+2025-01-09 10:23:36,059 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:23:36,059 [trainer.py] => batch_size: 256
+2025-01-09 10:23:36,059 [trainer.py] => num_workers: 16
+2025-01-09 10:23:36,059 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:23:36,059 [trainer.py] => seed: 1993
+2025-01-09 10:23:36,059 [trainer.py] => outdir: data/
+2025-01-09 10:23:36,059 [trainer.py] => steps: 50
+2025-01-09 10:23:36,059 [trainer.py] => use_plms: True
+2025-01-09 10:23:36,059 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:23:36,059 [trainer.py] => n_sum: 500
+2025-01-09 10:23:36,059 [trainer.py] => n_samples: 40
+2025-01-09 10:23:36,060 [trainer.py] => scale: 5.0
+2025-01-09 10:23:36,060 [trainer.py] => H: 256
+2025-01-09 10:23:36,060 [trainer.py] => W: 256
+2025-01-09 10:23:37,502 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:23:37,909 [trainer.py] => All params: 11256656
+2025-01-09 10:23:37,910 [trainer.py] => Trainable params: 11256656
+2025-01-09 10:23:37,910 [language_guidance_rkd.py] => Learning on 0-5
+2025-01-09 10:28:11,770 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:28:11,771 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:28:11,771 [trainer.py] => dataset: cifar10
+2025-01-09 10:28:11,771 [trainer.py] => memory_size: 0
+2025-01-09 10:28:11,771 [trainer.py] => memory_per_class: 0
+2025-01-09 10:28:11,771 [trainer.py] => fixed_memory: False
+2025-01-09 10:28:11,771 [trainer.py] => shuffle: True
+2025-01-09 10:28:11,771 [trainer.py] => init_cls: 5
+2025-01-09 10:28:11,771 [trainer.py] => increment: 1
+2025-01-09 10:28:11,771 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:28:11,771 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:28:11,771 [trainer.py] => init_epoch: 200
+2025-01-09 10:28:11,771 [trainer.py] => init_lr: 0.1
+2025-01-09 10:28:11,771 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:28:11,771 [trainer.py] => epochs: 100
+2025-01-09 10:28:11,771 [trainer.py] => lr: 0.01
+2025-01-09 10:28:11,771 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:28:11,771 [trainer.py] => batch_size: 256
+2025-01-09 10:28:11,771 [trainer.py] => num_workers: 16
+2025-01-09 10:28:11,771 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:28:11,771 [trainer.py] => seed: 1993
+2025-01-09 10:28:11,771 [trainer.py] => outdir: data/
+2025-01-09 10:28:11,771 [trainer.py] => steps: 50
+2025-01-09 10:28:11,771 [trainer.py] => use_plms: True
+2025-01-09 10:28:11,771 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:28:11,771 [trainer.py] => n_sum: 500
+2025-01-09 10:28:11,771 [trainer.py] => n_samples: 40
+2025-01-09 10:28:11,771 [trainer.py] => scale: 5.0
+2025-01-09 10:28:11,771 [trainer.py] => H: 256
+2025-01-09 10:28:11,771 [trainer.py] => W: 256
+2025-01-09 10:28:13,213 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:28:13,645 [trainer.py] => All params: 11256656
+2025-01-09 10:28:13,646 [trainer.py] => Trainable params: 11256656
+2025-01-09 10:28:13,646 [language_guidance_rkd.py] => Learning on 0-5
+2025-01-09 10:28:20,506 [language_guidance_rkd.py] => Task 0, Epoch 1/200 => Loss 2.214, Train_accy 29.14, Test_accy 39.40
+2025-01-09 10:28:26,081 [language_guidance_rkd.py] => Task 0, Epoch 2/200 => Loss 1.394, Train_accy 40.11
+2025-01-09 10:28:31,651 [language_guidance_rkd.py] => Task 0, Epoch 3/200 => Loss 1.278, Train_accy 46.40
+2025-01-09 10:28:37,237 [language_guidance_rkd.py] => Task 0, Epoch 4/200 => Loss 1.186, Train_accy 51.78
+2025-01-09 10:28:42,884 [language_guidance_rkd.py] => Task 0, Epoch 5/200 => Loss 1.106, Train_accy 55.72
+2025-01-09 10:29:20,529 [trainer.py] => config: /home/tjut_zhanghaiyang/paper-code/aa/sun/PyCIL-master/exps/language_guidance.json
+2025-01-09 10:29:20,529 [trainer.py] => prefix: cifar10_tsne
+2025-01-09 10:29:20,529 [trainer.py] => dataset: cifar10
+2025-01-09 10:29:20,529 [trainer.py] => memory_size: 0
+2025-01-09 10:29:20,529 [trainer.py] => memory_per_class: 0
+2025-01-09 10:29:20,529 [trainer.py] => fixed_memory: False
+2025-01-09 10:29:20,529 [trainer.py] => shuffle: True
+2025-01-09 10:29:20,529 [trainer.py] => init_cls: 5
+2025-01-09 10:29:20,529 [trainer.py] => increment: 1
+2025-01-09 10:29:20,529 [trainer.py] => model_name: language_guidance_rkd
+2025-01-09 10:29:20,529 [trainer.py] => convnet_type: resnet18_cbam
+2025-01-09 10:29:20,529 [trainer.py] => init_epoch: 200
+2025-01-09 10:29:20,529 [trainer.py] => init_lr: 0.1
+2025-01-09 10:29:20,529 [trainer.py] => init_weight_decay: 0.0005
+2025-01-09 10:29:20,529 [trainer.py] => epochs: 100
+2025-01-09 10:29:20,529 [trainer.py] => lr: 0.01
+2025-01-09 10:29:20,529 [trainer.py] => weight_decay: 0.0005
+2025-01-09 10:29:20,530 [trainer.py] => batch_size: 256
+2025-01-09 10:29:20,530 [trainer.py] => num_workers: 16
+2025-01-09 10:29:20,530 [trainer.py] => device: [device(type='cuda', index=6)]
+2025-01-09 10:29:20,530 [trainer.py] => seed: 1993
+2025-01-09 10:29:20,530 [trainer.py] => outdir: data/
+2025-01-09 10:29:20,530 [trainer.py] => steps: 50
+2025-01-09 10:29:20,530 [trainer.py] => use_plms: True
+2025-01-09 10:29:20,530 [trainer.py] => ddim_eta: 1.0
+2025-01-09 10:29:20,530 [trainer.py] => n_sum: 500
+2025-01-09 10:29:20,530 [trainer.py] => n_samples: 40
+2025-01-09 10:29:20,530 [trainer.py] => scale: 5.0
+2025-01-09 10:29:20,530 [trainer.py] => H: 256
+2025-01-09 10:29:20,530 [trainer.py] => W: 256
+2025-01-09 10:29:21,961 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2025-01-09 10:29:22,438 [trainer.py] => All params: 11256656
+2025-01-09 10:29:22,438 [trainer.py] => Trainable params: 11256656
+2025-01-09 10:29:22,438 [language_guidance_rkd.py] => Learning on 0-5
+2025-01-09 10:29:29,289 [language_guidance_rkd.py] => Task 0, Epoch 1/200 => Loss 2.214, Train_accy 29.14, Test_accy 39.40
+2025-01-09 10:29:34,865 [language_guidance_rkd.py] => Task 0, Epoch 2/200 => Loss 1.394, Train_accy 40.11
+2025-01-09 10:29:40,483 [language_guidance_rkd.py] => Task 0, Epoch 3/200 => Loss 1.278, Train_accy 46.40
+2025-01-09 10:29:46,159 [language_guidance_rkd.py] => Task 0, Epoch 4/200 => Loss 1.186, Train_accy 51.78
+2025-01-09 10:29:51,856 [language_guidance_rkd.py] => Task 0, Epoch 5/200 => Loss 1.106, Train_accy 55.72
+2025-01-09 10:29:58,234 [language_guidance_rkd.py] => Task 0, Epoch 6/200 => Loss 1.031, Train_accy 59.29, Test_accy 64.72
+2025-01-09 10:30:03,882 [language_guidance_rkd.py] => Task 0, Epoch 7/200 => Loss 0.942, Train_accy 63.04
+2025-01-09 10:30:09,583 [language_guidance_rkd.py] => Task 0, Epoch 8/200 => Loss 0.862, Train_accy 66.52
+2025-01-09 10:30:15,304 [language_guidance_rkd.py] => Task 0, Epoch 9/200 => Loss 0.806, Train_accy 68.88
+2025-01-09 10:30:21,042 [language_guidance_rkd.py] => Task 0, Epoch 10/200 => Loss 0.743, Train_accy 71.35
+2025-01-09 10:30:27,519 [language_guidance_rkd.py] => Task 0, Epoch 11/200 => Loss 0.702, Train_accy 72.82, Test_accy 75.04
+2025-01-09 10:30:33,254 [language_guidance_rkd.py] => Task 0, Epoch 12/200 => Loss 0.652, Train_accy 75.41
+2025-01-09 10:30:39,013 [language_guidance_rkd.py] => Task 0, Epoch 13/200 => Loss 0.618, Train_accy 76.66
+2025-01-09 10:30:44,726 [language_guidance_rkd.py] => Task 0, Epoch 14/200 => Loss 0.558, Train_accy 79.02
+2025-01-09 10:30:50,466 [language_guidance_rkd.py] => Task 0, Epoch 15/200 => Loss 0.514, Train_accy 80.91
+2025-01-09 10:30:57,008 [language_guidance_rkd.py] => Task 0, Epoch 16/200 => Loss 0.473, Train_accy 82.73, Test_accy 83.08
+2025-01-09 10:31:02,828 [language_guidance_rkd.py] => Task 0, Epoch 17/200 => Loss 0.439, Train_accy 83.88
+2025-01-09 10:31:08,577 [language_guidance_rkd.py] => Task 0, Epoch 18/200 => Loss 0.404, Train_accy 85.03
+2025-01-09 10:31:14,301 [language_guidance_rkd.py] => Task 0, Epoch 19/200 => Loss 0.386, Train_accy 85.80
+2025-01-09 10:31:20,054 [language_guidance_rkd.py] => Task 0, Epoch 20/200 => Loss 0.358, Train_accy 87.06
+2025-01-09 10:31:26,576 [language_guidance_rkd.py] => Task 0, Epoch 21/200 => Loss 0.332, Train_accy 88.03, Test_accy 85.36
+2025-01-09 10:31:32,278 [language_guidance_rkd.py] => Task 0, Epoch 22/200 => Loss 0.314, Train_accy 88.58
+2025-01-09 10:31:38,056 [language_guidance_rkd.py] => Task 0, Epoch 23/200 => Loss 0.298, Train_accy 89.35
+2025-01-09 10:31:43,794 [language_guidance_rkd.py] => Task 0, Epoch 24/200 => Loss 0.289, Train_accy 89.67
+2025-01-09 10:31:49,571 [language_guidance_rkd.py] => Task 0, Epoch 25/200 => Loss 0.265, Train_accy 90.39
+2025-01-09 10:31:55,973 [language_guidance_rkd.py] => Task 0, Epoch 26/200 => Loss 0.265, Train_accy 90.41, Test_accy 89.06
+2025-01-09 10:32:01,668 [language_guidance_rkd.py] => Task 0, Epoch 27/200 => Loss 0.241, Train_accy 91.37
+2025-01-09 10:32:07,411 [language_guidance_rkd.py] => Task 0, Epoch 28/200 => Loss 0.229, Train_accy 92.00
+2025-01-09 10:32:13,182 [language_guidance_rkd.py] => Task 0, Epoch 29/200 => Loss 0.223, Train_accy 91.89
+2025-01-09 10:32:18,910 [language_guidance_rkd.py] => Task 0, Epoch 30/200 => Loss 0.214, Train_accy 92.30
+2025-01-09 10:32:25,347 [language_guidance_rkd.py] => Task 0, Epoch 31/200 => Loss 0.210, Train_accy 92.62, Test_accy 89.20
+2025-01-09 10:32:31,057 [language_guidance_rkd.py] => Task 0, Epoch 32/200 => Loss 0.199, Train_accy 92.91
+2025-01-09 10:32:36,772 [language_guidance_rkd.py] => Task 0, Epoch 33/200 => Loss 0.188, Train_accy 93.22
+2025-01-09 10:32:42,489 [language_guidance_rkd.py] => Task 0, Epoch 34/200 => Loss 0.181, Train_accy 93.46
+2025-01-09 10:32:48,253 [language_guidance_rkd.py] => Task 0, Epoch 35/200 => Loss 0.178, Train_accy 93.71
+2025-01-09 10:32:54,750 [language_guidance_rkd.py] => Task 0, Epoch 36/200 => Loss 0.172, Train_accy 93.77, Test_accy 90.02
+2025-01-09 10:33:00,471 [language_guidance_rkd.py] => Task 0, Epoch 37/200 => Loss 0.170, Train_accy 94.09
+2025-01-09 10:33:06,213 [language_guidance_rkd.py] => Task 0, Epoch 38/200 => Loss 0.161, Train_accy 94.24
+2025-01-09 10:33:11,972 [language_guidance_rkd.py] => Task 0, Epoch 39/200 => Loss 0.166, Train_accy 94.08
+2025-01-09 10:33:17,715 [language_guidance_rkd.py] => Task 0, Epoch 40/200 => Loss 0.165, Train_accy 94.10
+2025-01-09 10:33:24,192 [language_guidance_rkd.py] => Task 0, Epoch 41/200 => Loss 0.154, Train_accy 94.54, Test_accy 90.52
+2025-01-09 10:33:29,883 [language_guidance_rkd.py] => Task 0, Epoch 42/200 => Loss 0.151, Train_accy 94.65
+2025-01-09 10:33:35,663 [language_guidance_rkd.py] => Task 0, Epoch 43/200 => Loss 0.146, Train_accy 94.76
+2025-01-09 10:33:41,418 [language_guidance_rkd.py] => Task 0, Epoch 44/200 => Loss 0.148, Train_accy 94.71
+2025-01-09 10:33:47,146 [language_guidance_rkd.py] => Task 0, Epoch 45/200 => Loss 0.134, Train_accy 95.26
+2025-01-09 10:33:53,663 [language_guidance_rkd.py] => Task 0, Epoch 46/200 => Loss 0.139, Train_accy 95.12, Test_accy 89.82
+2025-01-09 10:33:59,335 [language_guidance_rkd.py] => Task 0, Epoch 47/200 => Loss 0.128, Train_accy 95.50
+2025-01-09 10:34:05,081 [language_guidance_rkd.py] => Task 0, Epoch 48/200 => Loss 0.140, Train_accy 95.03
+2025-01-09 10:34:10,872 [language_guidance_rkd.py] => Task 0, Epoch 49/200 => Loss 0.128, Train_accy 95.50
+2025-01-09 10:34:16,605 [language_guidance_rkd.py] => Task 0, Epoch 50/200 => Loss 0.123, Train_accy 95.54
+2025-01-09 10:34:23,105 [language_guidance_rkd.py] => Task 0, Epoch 51/200 => Loss 0.127, Train_accy 95.40, Test_accy 88.52
+2025-01-09 10:34:28,942 [language_guidance_rkd.py] => Task 0, Epoch 52/200 => Loss 0.123, Train_accy 95.53
+2025-01-09 10:34:34,688 [language_guidance_rkd.py] => Task 0, Epoch 53/200 => Loss 0.130, Train_accy 95.27
+2025-01-09 10:34:40,391 [language_guidance_rkd.py] => Task 0, Epoch 54/200 => Loss 0.117, Train_accy 95.65
+2025-01-09 10:34:46,140 [language_guidance_rkd.py] => Task 0, Epoch 55/200 => Loss 0.117, Train_accy 95.95
+2025-01-09 10:34:52,667 [language_guidance_rkd.py] => Task 0, Epoch 56/200 => Loss 0.116, Train_accy 95.87, Test_accy 92.24
+2025-01-09 10:34:58,417 [language_guidance_rkd.py] => Task 0, Epoch 57/200 => Loss 0.113, Train_accy 96.02
+2025-01-09 10:35:04,137 [language_guidance_rkd.py] => Task 0, Epoch 58/200 => Loss 0.107, Train_accy 96.10
+2025-01-09 10:35:09,909 [language_guidance_rkd.py] => Task 0, Epoch 59/200 => Loss 0.107, Train_accy 96.24
+2025-01-09 10:35:15,709 [language_guidance_rkd.py] => Task 0, Epoch 60/200 => Loss 0.113, Train_accy 96.00
+2025-01-09 10:35:22,202 [language_guidance_rkd.py] => Task 0, Epoch 61/200 => Loss 0.109, Train_accy 96.10, Test_accy 91.58
+2025-01-09 10:35:27,958 [language_guidance_rkd.py] => Task 0, Epoch 62/200 => Loss 0.103, Train_accy 96.38
+2025-01-09 10:35:33,757 [language_guidance_rkd.py] => Task 0, Epoch 63/200 => Loss 0.095, Train_accy 96.79
+2025-01-09 10:35:39,516 [language_guidance_rkd.py] => Task 0, Epoch 64/200 => Loss 0.105, Train_accy 96.24
+2025-01-09 10:35:45,261 [language_guidance_rkd.py] => Task 0, Epoch 65/200 => Loss 0.098, Train_accy 96.46
+2025-01-09 10:35:51,758 [language_guidance_rkd.py] => Task 0, Epoch 66/200 => Loss 0.101, Train_accy 96.37, Test_accy 91.92
+2025-01-09 10:35:57,500 [language_guidance_rkd.py] => Task 0, Epoch 67/200 => Loss 0.093, Train_accy 96.74
+2025-01-09 10:36:03,235 [language_guidance_rkd.py] => Task 0, Epoch 68/200 => Loss 0.093, Train_accy 96.74
+2025-01-09 10:36:08,987 [language_guidance_rkd.py] => Task 0, Epoch 69/200 => Loss 0.092, Train_accy 96.75
+2025-01-09 10:36:14,728 [language_guidance_rkd.py] => Task 0, Epoch 70/200 => Loss 0.089, Train_accy 96.81
+2025-01-09 10:36:21,225 [language_guidance_rkd.py] => Task 0, Epoch 71/200 => Loss 0.083, Train_accy 97.03, Test_accy 93.32
+2025-01-09 10:36:26,940 [language_guidance_rkd.py] => Task 0, Epoch 72/200 => Loss 0.090, Train_accy 96.81
+2025-01-09 10:36:32,706 [language_guidance_rkd.py] => Task 0, Epoch 73/200 => Loss 0.087, Train_accy 97.04
+2025-01-09 10:36:38,478 [language_guidance_rkd.py] => Task 0, Epoch 74/200 => Loss 0.087, Train_accy 96.96
+2025-01-09 10:36:44,207 [language_guidance_rkd.py] => Task 0, Epoch 75/200 => Loss 0.082, Train_accy 97.12
+2025-01-09 10:36:50,724 [language_guidance_rkd.py] => Task 0, Epoch 76/200 => Loss 0.078, Train_accy 97.23, Test_accy 92.18
+2025-01-09 10:36:56,470 [language_guidance_rkd.py] => Task 0, Epoch 77/200 => Loss 0.075, Train_accy 97.37
+2025-01-09 10:37:02,220 [language_guidance_rkd.py] => Task 0, Epoch 78/200 => Loss 0.076, Train_accy 97.35
+2025-01-09 10:37:08,025 [language_guidance_rkd.py] => Task 0, Epoch 79/200 => Loss 0.077, Train_accy 97.34
+2025-01-09 10:37:13,725 [language_guidance_rkd.py] => Task 0, Epoch 80/200 => Loss 0.077, Train_accy 97.28
+2025-01-09 10:37:20,249 [language_guidance_rkd.py] => Task 0, Epoch 81/200 => Loss 0.071, Train_accy 97.48, Test_accy 89.50
+2025-01-09 10:37:26,004 [language_guidance_rkd.py] => Task 0, Epoch 82/200 => Loss 0.064, Train_accy 97.74
+2025-01-09 10:37:31,748 [language_guidance_rkd.py] => Task 0, Epoch 83/200 => Loss 0.070, Train_accy 97.44
+2025-01-09 10:37:37,502 [language_guidance_rkd.py] => Task 0, Epoch 84/200 => Loss 0.073, Train_accy 97.48
+2025-01-09 10:37:43,273 [language_guidance_rkd.py] => Task 0, Epoch 85/200 => Loss 0.066, Train_accy 97.71
+2025-01-09 10:37:49,895 [language_guidance_rkd.py] => Task 0, Epoch 86/200 => Loss 0.061, Train_accy 97.88, Test_accy 92.06
+2025-01-09 10:37:55,593 [language_guidance_rkd.py] => Task 0, Epoch 87/200 => Loss 0.061, Train_accy 97.78
+2025-01-09 10:38:01,360 [language_guidance_rkd.py] => Task 0, Epoch 88/200 => Loss 0.055, Train_accy 98.16
+2025-01-09 10:38:07,120 [language_guidance_rkd.py] => Task 0, Epoch 89/200 => Loss 0.060, Train_accy 97.94
+2025-01-09 10:38:12,904 [language_guidance_rkd.py] => Task 0, Epoch 90/200 => Loss 0.066, Train_accy 97.68
+2025-01-09 10:38:19,429 [language_guidance_rkd.py] => Task 0, Epoch 91/200 => Loss 0.066, Train_accy 97.66, Test_accy 93.06
+2025-01-09 10:38:25,151 [language_guidance_rkd.py] => Task 0, Epoch 92/200 => Loss 0.057, Train_accy 98.02
+2025-01-09 10:38:30,872 [language_guidance_rkd.py] => Task 0, Epoch 93/200 => Loss 0.064, Train_accy 97.78
+2025-01-09 10:38:36,633 [language_guidance_rkd.py] => Task 0, Epoch 94/200 => Loss 0.059, Train_accy 97.95
+2025-01-09 10:38:42,411 [language_guidance_rkd.py] => Task 0, Epoch 95/200 => Loss 0.052, Train_accy 98.24
+2025-01-09 10:38:48,928 [language_guidance_rkd.py] => Task 0, Epoch 96/200 => Loss 0.048, Train_accy 98.38, Test_accy 93.06
+2025-01-09 10:38:54,647 [language_guidance_rkd.py] => Task 0, Epoch 97/200 => Loss 0.053, Train_accy 98.12
+2025-01-09 10:39:00,404 [language_guidance_rkd.py] => Task 0, Epoch 98/200 => Loss 0.043, Train_accy 98.59
+2025-01-09 10:39:06,172 [language_guidance_rkd.py] => Task 0, Epoch 99/200 => Loss 0.049, Train_accy 98.34
+2025-01-09 10:39:11,917 [language_guidance_rkd.py] => Task 0, Epoch 100/200 => Loss 0.054, Train_accy 98.06
+2025-01-09 10:39:18,429 [language_guidance_rkd.py] => Task 0, Epoch 101/200 => Loss 0.051, Train_accy 98.24, Test_accy 94.18
+2025-01-09 10:39:24,175 [language_guidance_rkd.py] => Task 0, Epoch 102/200 => Loss 0.035, Train_accy 98.87
+2025-01-09 10:39:29,959 [language_guidance_rkd.py] => Task 0, Epoch 103/200 => Loss 0.042, Train_accy 98.51
+2025-01-09 10:39:35,765 [language_guidance_rkd.py] => Task 0, Epoch 104/200 => Loss 0.050, Train_accy 98.24
+2025-01-09 10:39:41,567 [language_guidance_rkd.py] => Task 0, Epoch 105/200 => Loss 0.039, Train_accy 98.74
+2025-01-09 10:39:48,096 [language_guidance_rkd.py] => Task 0, Epoch 106/200 => Loss 0.039, Train_accy 98.66, Test_accy 93.24
+2025-01-09 10:39:53,854 [language_guidance_rkd.py] => Task 0, Epoch 107/200 => Loss 0.042, Train_accy 98.50
+2025-01-09 10:39:59,605 [language_guidance_rkd.py] => Task 0, Epoch 108/200 => Loss 0.046, Train_accy 98.41
+2025-01-09 10:40:05,350 [language_guidance_rkd.py] => Task 0, Epoch 109/200 => Loss 0.041, Train_accy 98.64
+2025-01-09 10:40:11,083 [language_guidance_rkd.py] => Task 0, Epoch 110/200 => Loss 0.039, Train_accy 98.66
+2025-01-09 10:40:17,524 [language_guidance_rkd.py] => Task 0, Epoch 111/200 => Loss 0.039, Train_accy 98.65, Test_accy 94.28
+2025-01-09 10:40:23,214 [language_guidance_rkd.py] => Task 0, Epoch 112/200 => Loss 0.032, Train_accy 98.88
+2025-01-09 10:40:28,913 [language_guidance_rkd.py] => Task 0, Epoch 113/200 => Loss 0.031, Train_accy 98.96
+2025-01-09 10:40:34,623 [language_guidance_rkd.py] => Task 0, Epoch 114/200 => Loss 0.033, Train_accy 98.94
+2025-01-09 10:40:40,348 [language_guidance_rkd.py] => Task 0, Epoch 115/200 => Loss 0.029, Train_accy 99.10
+2025-01-09 10:40:46,833 [language_guidance_rkd.py] => Task 0, Epoch 116/200 => Loss 0.026, Train_accy 99.10, Test_accy 94.14
+2025-01-09 10:40:52,560 [language_guidance_rkd.py] => Task 0, Epoch 117/200 => Loss 0.029, Train_accy 99.02
+2025-01-09 10:40:58,322 [language_guidance_rkd.py] => Task 0, Epoch 118/200 => Loss 0.026, Train_accy 99.10
+2025-01-09 10:41:04,096 [language_guidance_rkd.py] => Task 0, Epoch 119/200 => Loss 0.029, Train_accy 99.03
+2025-01-09 10:41:09,838 [language_guidance_rkd.py] => Task 0, Epoch 120/200 => Loss 0.023, Train_accy 99.30
+2025-01-09 10:41:16,313 [language_guidance_rkd.py] => Task 0, Epoch 121/200 => Loss 0.022, Train_accy 99.27, Test_accy 94.24
+2025-01-09 10:41:22,014 [language_guidance_rkd.py] => Task 0, Epoch 122/200 => Loss 0.028, Train_accy 99.12
+2025-01-09 10:41:27,812 [language_guidance_rkd.py] => Task 0, Epoch 123/200 => Loss 0.026, Train_accy 99.12
+2025-01-09 10:41:33,606 [language_guidance_rkd.py] => Task 0, Epoch 124/200 => Loss 0.020, Train_accy 99.36
+2025-01-09 10:41:39,360 [language_guidance_rkd.py] => Task 0, Epoch 125/200 => Loss 0.021, Train_accy 99.34
+2025-01-09 10:41:45,810 [language_guidance_rkd.py] => Task 0, Epoch 126/200 => Loss 0.026, Train_accy 99.17, Test_accy 93.90
+2025-01-09 10:41:51,499 [language_guidance_rkd.py] => Task 0, Epoch 127/200 => Loss 0.022, Train_accy 99.22
+2025-01-09 10:41:57,210 [language_guidance_rkd.py] => Task 0, Epoch 128/200 => Loss 0.023, Train_accy 99.22
+2025-01-09 10:42:03,028 [language_guidance_rkd.py] => Task 0, Epoch 129/200 => Loss 0.018, Train_accy 99.44
+2025-01-09 10:42:08,793 [language_guidance_rkd.py] => Task 0, Epoch 130/200 => Loss 0.015, Train_accy 99.55
+2025-01-09 10:42:15,264 [language_guidance_rkd.py] => Task 0, Epoch 131/200 => Loss 0.017, Train_accy 99.42, Test_accy 95.34
+2025-01-09 10:42:20,957 [language_guidance_rkd.py] => Task 0, Epoch 132/200 => Loss 0.018, Train_accy 99.36
+2025-01-09 10:42:26,708 [language_guidance_rkd.py] => Task 0, Epoch 133/200 => Loss 0.013, Train_accy 99.59
+2025-01-09 10:42:32,464 [language_guidance_rkd.py] => Task 0, Epoch 134/200 => Loss 0.015, Train_accy 99.54
+2025-01-09 10:42:38,190 [language_guidance_rkd.py] => Task 0, Epoch 135/200 => Loss 0.014, Train_accy 99.54
+2025-01-09 10:42:44,711 [language_guidance_rkd.py] => Task 0, Epoch 136/200 => Loss 0.011, Train_accy 99.66, Test_accy 94.50
+2025-01-09 10:42:50,380 [language_guidance_rkd.py] => Task 0, Epoch 137/200 => Loss 0.012, Train_accy 99.66
+2025-01-09 10:42:56,108 [language_guidance_rkd.py] => Task 0, Epoch 138/200 => Loss 0.010, Train_accy 99.71
+2025-01-09 10:43:01,855 [language_guidance_rkd.py] => Task 0, Epoch 139/200 => Loss 0.010, Train_accy 99.67
+2025-01-09 10:43:07,621 [language_guidance_rkd.py] => Task 0, Epoch 140/200 => Loss 0.009, Train_accy 99.76
+2025-01-09 10:43:14,087 [language_guidance_rkd.py] => Task 0, Epoch 141/200 => Loss 0.007, Train_accy 99.82, Test_accy 95.42
+2025-01-09 10:43:19,932 [language_guidance_rkd.py] => Task 0, Epoch 142/200 => Loss 0.006, Train_accy 99.82
+2025-01-09 10:43:25,675 [language_guidance_rkd.py] => Task 0, Epoch 143/200 => Loss 0.005, Train_accy 99.90
+2025-01-09 10:43:31,390 [language_guidance_rkd.py] => Task 0, Epoch 144/200 => Loss 0.004, Train_accy 99.91
+2025-01-09 10:43:37,179 [language_guidance_rkd.py] => Task 0, Epoch 145/200 => Loss 0.004, Train_accy 99.93
+2025-01-09 10:43:43,699 [language_guidance_rkd.py] => Task 0, Epoch 146/200 => Loss 0.003, Train_accy 99.94, Test_accy 96.02
+2025-01-09 10:43:49,387 [language_guidance_rkd.py] => Task 0, Epoch 147/200 => Loss 0.003, Train_accy 99.93
+2025-01-09 10:43:55,175 [language_guidance_rkd.py] => Task 0, Epoch 148/200 => Loss 0.002, Train_accy 99.97
+2025-01-09 10:44:00,927 [language_guidance_rkd.py] => Task 0, Epoch 149/200 => Loss 0.002, Train_accy 99.98
+2025-01-09 10:44:06,673 [language_guidance_rkd.py] => Task 0, Epoch 150/200 => Loss 0.002, Train_accy 99.97
+2025-01-09 10:44:13,125 [language_guidance_rkd.py] => Task 0, Epoch 151/200 => Loss 0.001, Train_accy 99.99, Test_accy 96.16
+2025-01-09 10:44:18,885 [language_guidance_rkd.py] => Task 0, Epoch 152/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:44:24,648 [language_guidance_rkd.py] => Task 0, Epoch 153/200 => Loss 0.002, Train_accy 99.98
+2025-01-09 10:44:30,449 [language_guidance_rkd.py] => Task 0, Epoch 154/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:44:36,178 [language_guidance_rkd.py] => Task 0, Epoch 155/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:44:42,691 [language_guidance_rkd.py] => Task 0, Epoch 156/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.48
+2025-01-09 10:44:48,454 [language_guidance_rkd.py] => Task 0, Epoch 157/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:44:54,220 [language_guidance_rkd.py] => Task 0, Epoch 158/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:45:00,011 [language_guidance_rkd.py] => Task 0, Epoch 159/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:45:05,751 [language_guidance_rkd.py] => Task 0, Epoch 160/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:45:12,198 [language_guidance_rkd.py] => Task 0, Epoch 161/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.36
+2025-01-09 10:45:17,915 [language_guidance_rkd.py] => Task 0, Epoch 162/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:45:23,654 [language_guidance_rkd.py] => Task 0, Epoch 163/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:45:29,448 [language_guidance_rkd.py] => Task 0, Epoch 164/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:45:35,228 [language_guidance_rkd.py] => Task 0, Epoch 165/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:45:41,797 [language_guidance_rkd.py] => Task 0, Epoch 166/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.42
+2025-01-09 10:45:47,547 [language_guidance_rkd.py] => Task 0, Epoch 167/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:45:53,279 [language_guidance_rkd.py] => Task 0, Epoch 168/200 => Loss 0.001, Train_accy 99.98
+2025-01-09 10:45:59,042 [language_guidance_rkd.py] => Task 0, Epoch 169/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:04,793 [language_guidance_rkd.py] => Task 0, Epoch 170/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:11,282 [language_guidance_rkd.py] => Task 0, Epoch 171/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.40
+2025-01-09 10:46:16,991 [language_guidance_rkd.py] => Task 0, Epoch 172/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:22,736 [language_guidance_rkd.py] => Task 0, Epoch 173/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:28,459 [language_guidance_rkd.py] => Task 0, Epoch 174/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:34,238 [language_guidance_rkd.py] => Task 0, Epoch 175/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:40,730 [language_guidance_rkd.py] => Task 0, Epoch 176/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.46
+2025-01-09 10:46:46,468 [language_guidance_rkd.py] => Task 0, Epoch 177/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:46:52,231 [language_guidance_rkd.py] => Task 0, Epoch 178/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:46:57,975 [language_guidance_rkd.py] => Task 0, Epoch 179/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:47:03,746 [language_guidance_rkd.py] => Task 0, Epoch 180/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:10,205 [language_guidance_rkd.py] => Task 0, Epoch 181/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.40
+2025-01-09 10:47:15,930 [language_guidance_rkd.py] => Task 0, Epoch 182/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:21,716 [language_guidance_rkd.py] => Task 0, Epoch 183/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:27,503 [language_guidance_rkd.py] => Task 0, Epoch 184/200 => Loss 0.001, Train_accy 99.99
+2025-01-09 10:47:33,210 [language_guidance_rkd.py] => Task 0, Epoch 185/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:39,726 [language_guidance_rkd.py] => Task 0, Epoch 186/200 => Loss 0.001, Train_accy 100.00, Test_accy 96.44
+2025-01-09 10:47:45,444 [language_guidance_rkd.py] => Task 0, Epoch 187/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:51,185 [language_guidance_rkd.py] => Task 0, Epoch 188/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:47:56,919 [language_guidance_rkd.py] => Task 0, Epoch 189/200 => Loss 0.001, Train_accy 100.00
+2025-01-09 10:48:02,635 [language_guidance_rkd.py] => Task 0, Epoch 190/200 => Loss 0.001, Train_accy 100.00
